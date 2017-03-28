@@ -1,0 +1,118 @@
+/*游戏标题样式*/
+header{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+/*游戏名称样式*/
+header h1{
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: bold;
+}
+/*游戏按钮样式*/
+header #newgamebutton{
+	display: block;
+	margin: 20px auto;
+	width: 100px;
+	padding: 10px 10px;
+	background-color: #8f7a66;
+	font-family: Arial;
+	color: white;
+	border-radius: 10px;
+	text-decoration: none;
+}
+/*游戏按钮鼠标悬浮样式*/
+header #newgamebutton:hover {
+    background-color: #9f8b77;
+}
+/*游戏分数样式*/
+header p {
+    font-family: Arial;
+    font-size: 25px;
+    margin: 20px auto;
+}
+
+/*设置16个方块的背景主体方块样式*/
+#grid-container {
+    width: 500px;
+    height: 500px;
+    padding: 0px;
+
+    margin: 50px auto;
+    background-color: #bbada0;
+
+    border-radius: 10px;
+    position: relative;
+}
+/*设置16个小方块的样式*/
+.grid-cell {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    background-color: #ccc0b3;
+    position: absolute;
+}
+
+/*数字格的样式*/
+.number-cell {
+    border-radius: 6px;
+
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 100px;
+    text-align: center;
+
+    position: absolute;
+}
+
+
+.gameover{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    z-index: 1;
+
+    position: absolute;
+}
+.gameover p {
+    font-family: Arial;
+    font-size: 50px;
+    color: white;
+    margin: 20px auto;
+
+    margin-top: 150px;
+}
+
+.gameover span {
+    font-family: Arial;
+    font-size: 50px;
+    color: white;
+    margin: 20px auto;
+}
+
+#restartgamebutton {
+    display: block;
+    margin: 20px auto;
+
+    width: 180px;
+    padding: 10px 10px;
+    background-color: #8f7a66;
+
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+}
+
+#restartgamebutton:hover {
+    background-color: #9f8b77;
+}
